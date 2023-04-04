@@ -1,0 +1,6 @@
+---
+- name: ping dynamic hosts
+  hosts: ubuntu,redhat
+  tasks:
+   - name:  ping dynamic hosts
+     ping:
